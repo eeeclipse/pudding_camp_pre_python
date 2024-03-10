@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "./.venv/bin/python",
+    "python.testing.cwd": "./",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "pythonTestExplorer.testFramework": "pytest",
+    "python.testing.pytestPath": "./.venv/bin/pytest",
+    "python.testing.pytestArgs": [
+      "src"
+    ],
+  }
