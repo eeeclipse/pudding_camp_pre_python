@@ -1,4 +1,6 @@
 ## MptiTest.py
+## 과제-20240318-1
+
 
 import csv
 
@@ -49,6 +51,7 @@ class MptiTest() :
         
         cnt = 0
 
+        ## TODO
         while cnt < len(question) :
             print(f"""{question[cnt]["번호"]},  {question[cnt]["지문"]}""")
             print("1 : ", question[cnt]["선택항목1"])
@@ -71,7 +74,7 @@ class MptiTest() :
                 print('!!!!! 잘못 입력했어요. 다시 문항을 골라주세요.')
     
         
-        # print(result)
+        ## TODO
         if cnt == len(question) : 
             if result["I"] < result["E"] : 
                 result_string += "E"
